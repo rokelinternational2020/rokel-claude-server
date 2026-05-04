@@ -1,0 +1,19 @@
+[claude]
+api_key = "CLAUDE_API_KEY"
+model = "claude-3-5-sonnet-20241022"
+max_tokens = 2048
+temperature = 0.7
+timeout = 30000
+
+[server]
+port = 3000
+host = "localhost"
+environment = "development"
+
+[logging]
+level = "info"
+format = "json"
+
+[api]
+endpoint = "https://api.anthropic.com/v1"
+version = "2023-06-01"
