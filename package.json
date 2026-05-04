@@ -1,0 +1,6 @@
+{
+  "name": "rokel-claude-server",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0"
+  }
+}
